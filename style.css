@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main {
+    width: 100%;        /* 100% dell'elemento padre */
+}
+
+#content {      /* elemento padre */
+    height: 100%;
+    padding-left: 40px;
+    display: flex;      /* rende possibile il flexbox */
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;     /* flex-direction definisce la direzione in cui gli elementi verranno posizionati nel contenitore */
+    align-items: center;        /* allinea gli elementi verticalmente */
+    
+}
+
+.sidebar-icon {
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;        /* puntatore mouse manina */
+    
+}
+
+.sidebar-icon p {       /* modifica i parametri solo all'interno del paragrafo della "sidebar-icon" */
+    margin: 0;
+}
+
+.sidebar-icon ion-icon {
+    font-size: 1.5em;
+}
+
+#topbar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;     /* allinea gli elementi orizzontalmente la proprietà "space-between" Separa gli elementi con uguale spazio tra di loro */
+    align-items: center;
+}
+
+#logo {
+    height: 50%;
+}
+
+#search-wrapper {
+    display: flex;
+    height: 50%;
+}
+
+#topbar-icons {
+    display: flex;
+}
+
+.topbar-icon ion-icon {
+    font-size: 2em;
+    padding: 0 0.3em;
+    cursor: pointer;
+}
+
+#mic-icon {
+    margin: 0 0.5em;
+}
+
+#mic-icon ion-icon {
+    font-size: 1.7em;
+}
+
+#search-btn {
+    padding: 0 0.6em;
+    font-size: 1.0em;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 0px;
+    align-content: center;
+}
+
+.items {
+    padding-top: 35px;
+}
+
+.sfondo-1 {
+    width: 400px;
+}
+
+.logo-1 {
+    height: 32.5px;
+    padding-top: 5px;
+
+}
+
+.description {
+    padding-left: 9px;
+    padding-top: 9.5px;
+}
+
+h1 {
+    font-size: 0.7em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p {
+    margin-top: 0;
+    font-size: 0.7em;
+}
+
+.group-items {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
